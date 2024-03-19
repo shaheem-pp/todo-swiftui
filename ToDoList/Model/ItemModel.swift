@@ -9,7 +9,7 @@ import Foundation
 
 
 // it's an immutable struct, which means it won't change
-struct ItemModel: Identifiable {
+struct ItemModel: Identifiable, Codable {
     let id: String
     let title: String
     let isCompleted: Bool
