@@ -25,7 +25,7 @@ struct AddView: View {
                 TextField("Enter your next task...", text: $textFieldText)
                     .padding(.horizontal)
                     .frame(height: 55)
-                    .background(Color(hue: 1.0, saturation: 0.0, brightness: 0.886))
+                    .background(Color(UIColor.secondarySystemBackground))
                     .cornerRadius(10)
                 //                    .onChange(of: textFieldText) { newValue in
                 //                        showError()
